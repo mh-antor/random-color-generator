@@ -1,0 +1,27 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  transition: background-color 300ms ease;
+  border-radius: 5px;
+ }
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #333333;
+  color: #fff;
+}
